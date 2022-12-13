@@ -12,5 +12,5 @@ Sobel operator for edge detection in gray scale images.
 
 **height** - height of gray scale image.
 
-![Lena_test](examples\Lena_test.png)
+![](https://github.com/TSem2019/Sobel/blob/main/examples/Lena_test.png)
 
