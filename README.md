@@ -6,11 +6,19 @@ Sobel operator for edge detection in gray scale images.
 
 
 
-***src** - pointer of gray scale image;
+Input arguments of function:
+
+***src** - pointer to gray scale image;
 
 **width** - width of gray scale image;
 
 **height** - height of gray scale image.
+
+
+
+Return:
+
+**int * ** - pointer to result.
 
 
 
