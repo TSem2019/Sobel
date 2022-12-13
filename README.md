@@ -18,7 +18,7 @@ Input arguments of function:
 
 Return:
 
-**int * ** - pointer to result.
+**int* ** - pointer to result.
 
 
 
