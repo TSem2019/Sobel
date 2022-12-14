@@ -30,7 +30,7 @@ Example:
 
 Input image
 
-![](https://github.com/TSem2019/Sobel/blob/main/examples/Lena_test.png)
+<img src="examples/Lena_test.png" alt="Input" style="width: 200px;"/>
 
 Result:
 
