@@ -4,6 +4,10 @@ v1
 
 Sobel operator for edge detection in gray scale images.
 
+Mode **replicate** is used ('replicate' - input array values outside the bounds of the array are assumed to equal the nearest array border value).
+
+
+
 
 
 Input arguments of function:
