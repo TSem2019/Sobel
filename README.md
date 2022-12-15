@@ -35,3 +35,11 @@ Input image
 Result:
 
 <img src="examples/Lena_Sobel.png" alt="Input" style="width: 300px;"/>
+
+# Arguments (Windows PowerShell)
+
+```
+.\Sobel_Test input_file.png output_file.png
+```
+
+The **input_file.png** and **output_file.png** arguments are, the file for which the contour should be calculated and the file with that calculated contour, respectively.
