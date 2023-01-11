@@ -1,9 +1,8 @@
 #include "sobel_tsv.h"
 
-int* sobel_tsv(int *src, int width, int height)
+void sobel_tsv(int *src, int *dest, int width, int height)
 {
-    int *result = nullptr;
-    result      = new int [width*height];
+
 
 
     int gx, gy;
@@ -19,7 +18,7 @@ int* sobel_tsv(int *src, int width, int height)
     int *pt1    = src;
     int *pt2    = src;
     int *pt3    = src + width;
-    int *ptr    = result;
+    int *ptr    = dest;
 
     for (int row = 0; row < height; row++)
     {
@@ -70,6 +69,4 @@ int* sobel_tsv(int *src, int width, int height)
         if (row == (height - 2))
             pt3 -= width;
     }
-
-    return result;
 }

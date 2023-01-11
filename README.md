@@ -8,8 +8,6 @@ Mode **replicate** is used ('replicate' - input array values outside the bounds 
 
 
 
-
-
 Input arguments of function:
 
 ***src** - pointer to gray scale image;
@@ -20,9 +18,9 @@ Input arguments of function:
 
 
 
-Return:
+Output:
 
-**int*** - pointer to result.
+***dest**  - pointer to result.
 
 
 
